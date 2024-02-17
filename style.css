@@ -40,7 +40,7 @@ a:hover, a{
     flex-direction: column;
     overflow: visible;
 }
-/*
+
  .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
@@ -60,7 +60,7 @@ a:hover, a{
     background-position: center;
     background-size: 100%;
 } 
-*/
+
  .btn-outline-success {--bs-btn-hover-color: #070707;}
 
 p {
@@ -71,3 +71,7 @@ p {
 div {
     margin-bottom: 1rem;
 } 
+
+.nav-item{
+    margin-top: 18px;
+}
