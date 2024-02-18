@@ -5,7 +5,7 @@
 }
 
 .kalam-bold {
-    font-family: "Kalam", cursive;
+    font-family: "Kalam-bold", cursive;
     font-weight: 700;
     font-style: normal;
 }
@@ -64,7 +64,7 @@ a:hover, a{
  .btn-outline-success {--bs-btn-hover-color: #070707;}
 
 p {
-    font-size: 20px;
+    font-size: 1.3rem;
     text-align: justify;
 }
 
@@ -74,4 +74,15 @@ div {
 
 .nav-item{
     margin-top: 18px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.card-title{
+    font-family: Kalam;
+    font-weight: bold;
+    text-align: center;
 }
