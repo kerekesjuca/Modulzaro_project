@@ -21,6 +21,11 @@ a:hover, a{
     color: inherit;
     } 
 
+.span_link {
+    color: #00b359;
+    font-weight: bold;
+}
+
 .back-to-top {
     position: fixed;
     display: flex;
