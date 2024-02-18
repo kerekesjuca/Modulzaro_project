@@ -46,19 +46,14 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Növénykalauz</a>
                         <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#kalauz">Növényeink</a></li>
                             <li><a class="dropdown-item" href="./paradicsom.html">Paradicsom</a></li>
                             <li><a class="dropdown-item" href="./zoldborso.html">Zöldborsó</a></li>
                             <li><a class="dropdown-item" href="./paprika.html">Paprika</a></li>
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" id="search" placeholder="Növény keresése..."
-                        aria-label="Search">
 
-                    <button class="btn btn-outline-success" type="submit"
-                        style="background-color: #c4ecd8">Keresés</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -75,21 +70,16 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="pics/gardening.jpg" class="d-block w-100" alt="t1">
-                    </div>
-                    <div class="carousel-item">
                         <img src="pics/v02.jpeg" class="d-block w-100" alt="t2">
                     </div>
                     <div class="carousel-item">
-                        <img src="pics/v01.jpg" class="d-block w-100" alt="t3">
+                        <img src="pics/v03.jpg" class="d-block w-100" alt="t4">
                     </div>
                     <div class="carousel-item">
-                        <img src="pics/v03.jpg" class="d-block w-100" alt="t4">
+                        <img src="pics/v01.jpg" class="d-block w-100" alt="t3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -223,45 +213,71 @@
 
     <div class="container p-4" style="text-align: justify; background-color: #c4ecd8;">
         <div class="container">
-            <h1 class="display-3 p-4 text-center">Növénykalauz</h1>
+            <h1 id="kalauz" class="display-3 p-4 text-center">Növénykalauz</h1>
         </div>
         <p>Oldalunkon néhány közkedvelt zöldséggel ismertetünk meg, azok gondozásáról és megannyi hasznos információkról
             adunk felvilágosítást.</p>
+        <div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" id="myInput" onkeyup="myFunction()" type="text" placeholder="Növény keresése...">
 
+                <button class="btn btn-outline-success" type="submit" style="background-color: #c4ecd8">Keresés</button>
+            </form>
+            <ul id="plantsearch">
+                <li><a href="#">Paprika</a></li>
+                <li><a href="#">Paradicsom</a></li>
+                <li><a href="#">Zöldborsó</a></li>
+              </ul>
+        </div>
         <div class="card-group">
             <div class="card">
-                <img src="./pics/t1.jpg" class="card-img-top" alt="Paradicsom">
-                <div class="card-body">
-                    <h5 class="card-title">Paradicsom</h5>
-                    <p class="card-text">A paradicsom a burgonafélék családjába tartozik, így távoli rokona a
-                        paprikának, a padlizsánnak és a krumplinak is. Világszerte az egyik legkedveltebb zöldségnövény.
-                        Számtalan fajtájának változékonyságát a bogyók mérete, száma, színe, alakja adja.</p>
-                    <p class="card-text">A paradicsom egyetlen konyhakertből sem hiányozhat, hiszen nincs is nagyobb
-                        élvezet annál, mint egy napsütötte, langyos paradicsomot leszakítani és beleharapni…</p>
-                </div>
+                <a href="./paradicsom.html">
+                    <img src="./pics/t1.jpg" class="card-img-top" alt="Paradicsom">
+                    <div class="card-body">
+                        <h5 class="card-title">Paradicsom</h5>
+                        <p class="card-text">A paradicsom a burgonafélék családjába tartozik, így távoli rokona a
+                            paprikának, a padlizsánnak és a krumplinak is. Világszerte az egyik legkedveltebb
+                            zöldségnövény.
+                            Számtalan fajtájának változékonyságát a bogyók mérete, száma, színe, alakja adja.</p>
+                        <p class="card-text">A paradicsom egyetlen konyhakertből sem hiányozhat, hiszen nincs is
+                            nagyobb
+                            élvezet annál, mint egy napsütötte, langyos paradicsomot leszakítani és beleharapni…</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="./zoldborso.html">
+                    <img src="./pics/zb-04.jpg" class="card-img-top" alt="Zöldborsó">
+                    <div class="card-body">
+                        <h5 class="card-title">Zöldborsó</h5>
+                        <p class="card-text">Akár kifejtve, akár héjával együtt fogyasztjuk, a zöldborsó a tavasz
+                            jellegzetes, friss zöldsége. Nem csak azért értékeljük nagyra, mert sokszínűséget hoz az
+                            ételsorokba, hanem azért is, mert magas a tápértéke.
+                        </p>
+                        <p class="card-text">Számos értékes anyagot tartalmaz, megad nekünk mindent, amit egy friss
+                            zöldségtől várhatunk.</p>
+
+                    </div>
+                </a>
             </div>
             <div class="card">
-                <img src="./pics/zb-04.jpg" class="card-img-top" alt="Zöldborsó">
-                <div class="card-body">
-                    <h5 class="card-title">Zöldborsó</h5>
-                    <p class="card-text">Akár kifejtve, akár héjával együtt fogyasztjuk, a zöldborsó a tavasz
-                        jellegzetes, friss zöldsége. Nem csak azért értékeljük nagyra, mert sokszínűséget hoz az
-                        ételsorokba, hanem azért is, mert magas a tápértéke.
-                    </p>
-                    <p class="card-text">Számos értékes anyagot tartalmaz, megad nekünk mindent, amit egy friss
-                        zöldségtől várhatunk.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./pics/p-01.png" class="card-img-top" alt="Paprika">
-                <div class="card-body">
-                    <h5 class="card-title">Paprika</h5>
-                    <p class="card-text">A paprika nagyon egészséges zöldségféle, vitaminokban rendkívül gazdag,
-                        különösen C-vitaminban. A burgonyafélék családjába tartozik, mely a paradicsommal egy időben
-                        került Amerikából Európába. Valószínűleg Kolumbusz orvosának, Chancának köszönhetően került át
-                        Amerikából Európába.</p>
-                    <p class="card-text">Mára az egész világon termesztik a paprikát, a legkülönbözőbb fajtájáig. </p>
-                </div>
+                <a href="./paprika.html">
+                    <img src="./pics/p-01.png" class="card-img-top" alt="Paprika">
+                    <div class="card-body">
+                        <h5 class="card-title">Paprika</h5>
+                        <p class="card-text">A paprika nagyon egészséges zöldségféle, vitaminokban rendkívül gazdag,
+                            különösen C-vitaminban. A burgonyafélék családjába tartozik, mely a paradicsommal egy
+                            időben
+                            került Amerikából Európába. Valószínűleg Kolumbusz orvosának, Chancának köszönhetően
+                            került
+                            át
+                            Amerikából Európába.</p>
+                        <p class="card-text">Mára az egész világon termesztik a paprikát, a legkülönbözőbb
+                            fajtájáig.
+                        </p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
