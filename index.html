@@ -215,72 +215,82 @@
         <div class="container">
             <h1 id="kalauz" class="display-3 p-4 text-center">Növénykalauz</h1>
         </div>
-        <p>Oldalunkon néhány közkedvelt zöldséggel ismertetünk meg, azok gondozásáról és megannyi hasznos információkról
-            adunk felvilágosítást.</p>
+        <p>Oldalunkon néhány közkedvelt zöldséggel ismerkedhetsz meg.</p><small class="text-body-secondary">Lássuk, elérhető-e az oldalunkon az általad keresett növény?</small>
         <div>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" id="myInput" onkeyup="myFunction()" type="text" placeholder="Növény keresése...">
+                <input class="form-control me-2" id="myInput" onkeyup="myFunction()" type="text"
+                    placeholder="Növény keresése...">
 
                 <button class="btn btn-outline-success" type="submit" style="background-color: #c4ecd8">Keresés</button>
             </form>
-            <ul id="plantsearch">
-                <li><a href="#">Paprika</a></li>
-                <li><a href="#">Paradicsom</a></li>
-                <li><a href="#">Zöldborsó</a></li>
-              </ul>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <a href="./paradicsom.html">
-                    <img src="./pics/t1.jpg" class="card-img-top" alt="Paradicsom">
-                    <div class="card-body">
-                        <h5 class="card-title">Paradicsom</h5>
-                        <p class="card-text">A paradicsom a burgonafélék családjába tartozik, így távoli rokona a
-                            paprikának, a padlizsánnak és a krumplinak is. Világszerte az egyik legkedveltebb
-                            zöldségnövény.
-                            Számtalan fajtájának változékonyságát a bogyók mérete, száma, színe, alakja adja.</p>
-                        <p class="card-text">A paradicsom egyetlen konyhakertből sem hiányozhat, hiszen nincs is
-                            nagyobb
-                            élvezet annál, mint egy napsütötte, langyos paradicsomot leszakítani és beleharapni…</p>
-                    </div>
-                </a>
-            </div>
+            <div id="plantsearch" class="container">
+                <div class="card-group">
+                    <ul id="plantsearch">
+                        <div class="col-sm" type="text-align:center">
+                            <li>
+                                <h5 class="card-title"><a href="./paprika.html">Paprika</a></h5>
+                                <div class="card">
+                                    <img src="./pics/p-01.png" class="card-img-top" alt="Paprika">
+                                    <p class="card-text">A paprika nagyon egészséges zöldségféle, vitaminokban rendkívül
+                                        gazdag,
+                                        különösen C-vitaminban. A burgonyafélék családjába tartozik, mely a
+                                        paradicsommal egy
+                                        időben
+                                        került Amerikából Európába. Valószínűleg Kolumbusz orvosának, Chancának
+                                        köszönhetően
+                                        került
+                                        át
+                                        Amerikából Európába.
+                                    </p>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-sm" type="text-align:center">
+                            <li>
+                                <h5 class="card-title"><a href="./paradicsom.html">Paradicsom</a></h5>
+                                <div class="card">
+                                    <img src="./pics/t1.jpg" class="card-img-top" alt="Paradicsom">
+                                    <p class="card-text">A paradicsom a burgonafélék családjába tartozik, így távoli
+                                        rokona a
+                                        paprikának, a padlizsánnak és a krumplinak is. Világszerte az egyik
+                                        legkedveltebb
+                                        zöldségnövény.
+                                        Számtalan fajtájának változékonyságát a bogyók mérete, száma, színe, alakja
+                                        adja.</p>
+                                    <p class="card-text">A paradicsom egyetlen konyhakertből sem hiányozhat, hiszen
+                                        nincs is
+                                        nagyobb
+                                        élvezet annál, mint egy napsütötte, langyos paradicsomot leszakítani és
+                                        beleharapni…</p>
+                                </div>
+                            </li>
+                        </div>
 
-            <div class="card">
-                <a href="./zoldborso.html">
-                    <img src="./pics/zb-04.jpg" class="card-img-top" alt="Zöldborsó">
-                    <div class="card-body">
-                        <h5 class="card-title">Zöldborsó</h5>
-                        <p class="card-text">Akár kifejtve, akár héjával együtt fogyasztjuk, a zöldborsó a tavasz
-                            jellegzetes, friss zöldsége. Nem csak azért értékeljük nagyra, mert sokszínűséget hoz az
-                            ételsorokba, hanem azért is, mert magas a tápértéke.
-                        </p>
-                        <p class="card-text">Számos értékes anyagot tartalmaz, megad nekünk mindent, amit egy friss
-                            zöldségtől várhatunk.</p>
-
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="./paprika.html">
-                    <img src="./pics/p-01.png" class="card-img-top" alt="Paprika">
-                    <div class="card-body">
-                        <h5 class="card-title">Paprika</h5>
-                        <p class="card-text">A paprika nagyon egészséges zöldségféle, vitaminokban rendkívül gazdag,
-                            különösen C-vitaminban. A burgonyafélék családjába tartozik, mely a paradicsommal egy
-                            időben
-                            került Amerikából Európába. Valószínűleg Kolumbusz orvosának, Chancának köszönhetően
-                            került
-                            át
-                            Amerikából Európába.</p>
-                        <p class="card-text">Mára az egész világon termesztik a paprikát, a legkülönbözőbb
-                            fajtájáig.
-                        </p>
-                    </div>
-                </a>
+                        <div class="col-sm" type="text-align:center">
+                            <li>
+                                <h5 class="card-title"><a href="./paprika.html">Zöldborsó</a>
+                                    <h5 class="card-title"></h5>
+                                    <div class="card">
+                                        <img src="./pics/zb-04.jpg" class="card-img-top" alt="Zöldborsó">
+                                        <p class="card-text">Akár kifejtve, akár héjával együtt fogyasztjuk, a zöldborsó
+                                            a tavasz
+                                            jellegzetes, friss zöldsége. Nem csak azért értékeljük nagyra, mert
+                                            sokszínűséget hoz az
+                                            ételsorokba, hanem azért is, mert magas a tápértéke.
+                                        </p>
+                                        <p class="card-text">Számos értékes anyagot tartalmaz, megad nekünk mindent,
+                                            amit egy friss
+                                            zöldségtől várhatunk.</p>
+                                    </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </div>
+
     </div>
+
 
     <footer>
         <div id="topofpage">
