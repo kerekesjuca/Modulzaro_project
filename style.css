@@ -46,7 +46,7 @@ a:hover, a{
     overflow: visible;
 }
 
- .navbar-toggler {
+  .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
@@ -64,7 +64,7 @@ a:hover, a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-} 
+}  
 
  .btn-outline-success {--bs-btn-hover-color: #070707;}
 
