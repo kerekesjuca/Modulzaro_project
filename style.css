@@ -10,7 +10,7 @@
     font-style: normal;
 }
 
-body {
+body, footer {
     font-family: 'Kalam', sans-serif;
     font-size: large;
     background-color: #00b359;
