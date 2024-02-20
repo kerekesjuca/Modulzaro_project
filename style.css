@@ -88,12 +88,12 @@ li{
     list-style-type: none;
     padding: 0;
     margin: 10px;
-    color: #c4ecd8;
+    color: black;
 
   }
 #plantsearch a:hover{
     text-decoration: none;
-    color: #070707;
+    color: #c4ecd8;
 }
 
   #plantsearch li a ul {
