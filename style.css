@@ -70,7 +70,10 @@ div {
     font-family: "Kalam";
     font-weight: bold;
     text-align: center;
-    font-size: x-large;
+    border-radius: 50px 20px;
+    background-color: #00b359;
+    padding: 1rem;
+    
 }
 
 .card-text{
@@ -85,7 +88,13 @@ li{
     list-style-type: none;
     padding: 0;
     margin: 10px;
+    color: #c4ecd8;
+
   }
+#plantsearch a:hover{
+    text-decoration: none;
+    color: #070707;
+}
 
   #plantsearch li a ul {
     border: 1px solid #ddd;
@@ -98,17 +107,16 @@ li{
     display: block
   }
 
-#plantsearch li a:hover:not(.header) {
+#plantsearch li a:hover:not(.header) a:hover:not(.plantsearch) {
     background-color: #c4ecd8;
 }
 
-.hivlink a:hover {
+.hivlink a:hover:not(.plantsearch) {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold; 
     color: #00b359;
 }
 
 .felsorol li{
-
     list-style-type: "\🌿"; 
 }
