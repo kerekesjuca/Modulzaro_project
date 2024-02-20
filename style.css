@@ -101,3 +101,14 @@ li{
 #plantsearch li a:hover:not(.header) {
     background-color: #c4ecd8;
 }
+
+.hivlink a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00b359;
+}
+
+.felsorol li{
+
+    list-style-type: "\🌿"; 
+}
